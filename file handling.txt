@@ -1,0 +1,39 @@
+TASK 2:
+
+
+input taken:
+
+i want to work on it
+the previous line deleted when used write function
+so using append function
+making changes by program
+making changes by program
+making changes by program
+making changes by program
+
+
+
+Written program:
+
+x = open("C:\\Users\\RAJ\\Desktop\\python tasks\\demo.txt", "r")
+print(type(x))
+y = set(x.readlines())
+print(type(y))
+print(y)
+z = open("C:\\Users\\RAJ\\Desktop\\python tasks\\newfile.txt", "w")
+for data in y:
+    z.write(data)
+z.close()
+x.close()
+
+
+output:
+
+newfile created with data as-
+
+i want to work on it
+so using append function
+making changes by program
+the previous line deleted when used write function
+    
+
